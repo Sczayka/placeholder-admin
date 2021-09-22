@@ -1,7 +1,7 @@
 import './aside-menu.css';
 
 // Icons
-import { FaHome, FaMapMarkerAlt, FaUser, FaRegSun } from "react-icons/fa";
+import { FaMapMarkerAlt, FaUser } from "react-icons/fa";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function AsideMenu() {

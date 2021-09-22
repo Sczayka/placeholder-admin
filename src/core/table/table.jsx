@@ -1,6 +1,6 @@
 import './table.css';
 
-import { FaTrashAlt, FaPen } from "react-icons/fa"
+import { FaTrashAlt } from "react-icons/fa"
 
 function Table(props) {
     const axios = require('axios').default;
@@ -30,10 +30,6 @@ function Table(props) {
                 );
             });
         }
-    }
-
-    function editRow(id) {
-        document.location.href = `${path}/${id}`
     }
 
     function deleteRow(id) {

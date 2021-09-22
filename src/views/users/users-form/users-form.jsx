@@ -1,9 +1,7 @@
 import './users-form.css'
-import { useParams } from "react-router-dom";
   
 function UsersForm() {
     const axios = require('axios').default;
-    const { id } = useParams();
 
     function createUser() {
         const formData = {
