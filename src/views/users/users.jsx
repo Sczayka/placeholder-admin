@@ -24,7 +24,7 @@ function Users() {
       })
       ));
     })();
-  }, []);
+  }, [axios]);
 
   return (
     <>

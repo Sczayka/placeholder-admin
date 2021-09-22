@@ -15,7 +15,7 @@ function Places() {
       const { data } = await axios.get('https://fiap-back-end.herokuapp.com/places');
       setRows(data.map(el => ({ id: el.id, name: el.name })));
     })();
-  }, []);
+  }, [axios]);
 
   return (
     <>
