@@ -1,0 +1,13 @@
+.main-menu{
+    display: flex;
+    align-items: center;
+    height: 68px;
+    padding: 0px 20px;
+    color: #fff;
+    background-color: #3672e0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-menu img{
+    width: 200px;
+}

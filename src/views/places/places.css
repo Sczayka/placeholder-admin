@@ -1,0 +1,27 @@
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-header h3{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.table-header a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    min-width: 60px;
+    font-size: 14px;
+    background-color: #3672e0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}

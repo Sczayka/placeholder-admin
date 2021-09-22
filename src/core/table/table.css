@@ -1,0 +1,41 @@
+table{
+    width: 100%;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+thead{
+    background-color: #3672e0;
+    color: #fff;
+}
+
+tbody{
+    border: 1px solid #eeeeee;
+    border-top: none;
+}
+
+th{
+    text-align: left;
+    padding: 15px
+}
+
+td{
+    padding: 15px;
+    
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
+.actions{
+    width: 4rem;
+}
+
+.actions svg{
+    margin-left: 20px;
+}
